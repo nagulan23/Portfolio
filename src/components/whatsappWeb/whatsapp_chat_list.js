@@ -3,7 +3,6 @@ import { Avatar } from '@material-ui/core';
 import {MoreHoriz} from '@material-ui/icons';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import data from '../../assets/data';
 import { IconButton } from '@material-ui/core';
@@ -49,7 +48,7 @@ class Whatsapp_chat_list extends Component {
                 {
                     data.chatList.map(item => {
                         return <>
-                            <div className="chat_tile" style={{backgroundColor:(this.state.chat===item.title)?"#2d3035":""}} onClick={this.changePage.bind(this,item)}>
+                            <div className="chat_tile" key={item.title} style={{backgroundColor:(this.state.chat===item.title)?"#2d3035":""}} onClick={this.changePage.bind(this,item)}>
                                 <Avatar style={{height:"70px",width:"70px"}} src={item.icon}/>
                                 <div style={{display:"flex",flexDirection:"column",marginLeft:"20px",color:"#b1b3b5"}}>
                                     <div style={{fontSize:"20px",fontWeight:"500"}}>{item.title}</div>

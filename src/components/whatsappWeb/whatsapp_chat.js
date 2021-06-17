@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Avatar } from '@material-ui/core';
-import {CastForEducationSharp, MoreHoriz,SearchOutlined } from '@material-ui/icons';
-import FavoriteOutlinedIcon from '@material-ui/icons/FavoriteOutlined';
-import CodeIcon from '@material-ui/icons/Code';
+import {MoreHoriz,SearchOutlined } from '@material-ui/icons';
 import SendIcon from '@material-ui/icons/Send';
 import Aboutme from './aboutme';
 import Projects from './projects';
@@ -62,7 +60,6 @@ class Whatsapp_chat extends Component {
                                 value={this.state.text}
                                 type="text"
                                 placeholder="Type of message"
-                                autofocus="true"
                                 style={{width:"calc(100% - 20px)",dispaly:"flex",backgroundColor:"#33383b",border:"none",padding:"10px",borderRadius:"20px",outline:"none",color:"#b1b3b5",fontSize:"15px"}}
                             />
                         </form>
