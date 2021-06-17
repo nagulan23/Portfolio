@@ -1,0 +1,57 @@
+.chat_tile {
+    padding:12px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+.chat_tile:hover{
+    background-color:#2d3035;
+}
+
+.chat_divider {
+    margin-left:100px;
+    margin-right:20px;
+    height:1px;
+    background-color:#5f6769;
+}
+
+.chat_window{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    overflow-y:auto;
+    position:relative;
+    background:#171d20;
+}
+
+.non_header_window{
+    height:calc(100% - 30px);
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+
+.scroll2::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+.scroll2::-webkit-scrollbar-thumb {
+  background: #666; 
+}
+
+.socialmedia_icon {
+    color:#b1b3b5;
+}
+
+.socialmedia_icon:hover {
+    color:#34b6f0;
+}
+
+.rotate_-45_icons{
+    transform: rotate(-45deg);
+}
+
