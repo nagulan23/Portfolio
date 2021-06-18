@@ -28,14 +28,14 @@ class Whatsapp_chat extends Component {
         return ( 
             <div style={{display:"flex",flexDirection:"column",width:"100%"}}>
                 <div style={{display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"space-between",backgroundColor:"#2a2e33"}}>
-                    <div style={{display:"flex",flexDirection:"row",padding:"0px",paddingLeft:"0px",alignItems:"center"}}>
+                    <div style={{display:"flex",flexDirection:"row",padding:"0px",paddingLeft:"0px",alignItems:"center",width:"calc(100% - 48px)"}}>
                         <IconButton onClick={()=>this.props.changeChat({title:"Main"})}>
                             <ArrowBackIcon style={{color:"#b1b3b5",fontSize:"28px"}}/>
                         </IconButton>
                         <Avatar style={{height:"40px",width:"40px"}} src={this.props.chat.icon}/>
-                        <div style={{display:"flex",flexDirection:"column",marginLeft:"20px",color:"#b1b3b5"}}>
-                            <div style={{fontSize:"18px",fontWeight:"500"}}>{this.props.chat.title}</div>
-                            <div style={{fontSize:"13px"}}>{this.props.chat.sub}</div>
+                        <div style={{display:"flex",flexDirection:"column",marginLeft:"20px",color:"#b1b3b5",width:"calc(100% - 112px)"}}>
+                            <div style={{fontSize:"18px",fontWeight:"500",overflow:"hidden",whiteSpace:"nowrap",textOverflow:"ellipsis"}}>{this.props.chat.title}</div>
+                            <div style={{fontSize:"13px",overflow:"hidden",whiteSpace:"nowrap",textOverflow:"ellipsis"}}>{this.props.chat.sub}</div>
                         </div>
                     </div>
                     <div style={{display:"flex",flexDirection:"row",padding:"10px",alignItems:"center"}}>
@@ -53,7 +53,7 @@ class Whatsapp_chat extends Component {
                     }
                 </div>
                 <div style={{display:"flex",flexDirection:"row",alignItems:"center",backgroundColor:"#2a2e33",width:"100%"}}>
-                    <div style={{position:"absolute"}}>
+                    <div style={{position:"absolute"}} className="heart-icon">
                         <Heart  isClick={this.state.heart} onClick={() => this.setState({heart:!this.state.heart})}/>
                     </div>
                     <AttachFileIcon style={{color:"#b1b3b5",fontSize:"28px",padding:"15px",marginLeft:"70px"}} className="rotate_45_icons"/>

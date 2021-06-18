@@ -214,38 +214,51 @@ const data = {
       title:"Home",
       sub:"Short intro about me :)",
       icon:"https://st.depositphotos.com/1620766/4559/v/600/depositphotos_45590179-stock-illustration-about-me-sign.jpg",
+      visited:true
     },
     {
       title:"Projects",
       sub:"Creations done in my learning journey",
       icon:"https://img.freepik.com/free-vector/organizing-projects-concept-illustration_114360-632.jpg?size=626&ext=jpg",
+      visited:false,
+      length:"2",
     },
     {
       title:"Experience",
       sub:"Lead works done as a community",
       icon:"https://st3.depositphotos.com/2684485/35933/v/600/depositphotos_359334344-stock-illustration-flat-vector-work-home-workplace.jpg",
+      visited:false,
+      length:"2",
     },
     {
       title:"Education",
       sub:"My path to the computer world",
       icon:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/online-3412473_1920.jpeg?meGHIUut1mybIL3pem8eWqk34osmW3Zi&size=770:433",
+      visited:false,
+      length:"2",
     },
     {
       title:"Skills",
       sub:"Skills gained in experience",
       icon:"https://cdn.searchenginejournal.com/wp-content/uploads/2017/02/star-ratings.jpg",
+      visited:false,
+      length:"2",
     },
     {
       title:"Achievements",
       sub:"Acheievents made in reputed organizations",
       icon:"https://i0.wp.com/coverlettersandresume.com/wp-content/uploads/Key-Achievements-for-Teacher.gif?fit=640%2C406&ssl=1",
+      visited:false,
+      length:"3",
     },
     {
       title:"Contact me",
       sub:"Wanna contact me?",
       icon:"https://www.tdigitalguru.com/wp-content/uploads/2021/05/Conatct-us.jpg",
+      visited:false,
+      length:"3",
     },
-  ]
+  ],
 }
   
 export default data;

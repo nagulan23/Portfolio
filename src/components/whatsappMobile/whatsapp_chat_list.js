@@ -50,9 +50,9 @@ class Whatsapp_chat_list extends Component {
                         return <>
                             <div className="chat_tile" key={item.title} style={{backgroundColor:(this.state.chat===item.title)?"#2d3035":""}} onClick={this.changePage.bind(this,item)}>
                                 <Avatar style={{height:"60px",width:"60px"}} src={item.icon}/>
-                                <div style={{display:"flex",flexDirection:"column",marginLeft:"20px",color:"#b1b3b5"}}>
+                                <div style={{display:"flex",flexDirection:"column",marginLeft:"20px",color:"#b1b3b5",width:"calc(100% - 104px)"}}>
                                     <div style={{fontSize:"20px",fontWeight:"500"}}>{item.title}</div>
-                                    <div style={{fontSize:"15px"}}>{item.sub}</div>
+                                    <div style={{fontSize:"15px",overflow:"hidden",whiteSpace:"nowrap",textOverflow:"ellipsis"}}>{item.sub}</div>
                                 </div>
                             </div>
                             {(item.title==="Contact me")?<div/>:<div className="chat_divider"/>}

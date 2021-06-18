@@ -44,16 +44,16 @@ class Whatsapp_chat_list extends Component {
                     </IconButton>
                 </div>
                 <div style={{width:"100%",height:"1px",backgroundColor:"#5f6769"}}/>
-                <div style={{overflowY:"auto",position:"relative",height:"calc(100% - 150px)"}} className="scroll2">
+                <div style={{overflowY:"auto",position:"relative",height:"calc(100% - 130px)"}} className="scroll2">
                 {
                     data.chatList.map(item => {
                         return <>
                             <div className="chat_tile" key={item.title} style={{backgroundColor:(this.state.chat===item.title)?"#2d3035":""}} onClick={this.changePage.bind(this,item)}>
-                                <Avatar style={{height:"70px",width:"70px"}} src={item.icon}/>
-                                <div style={{display:"flex",flexDirection:"column",marginLeft:"20px",color:"#b1b3b5"}}>
-                                    <div style={{fontSize:"20px",fontWeight:"500"}}>{item.title}</div>
-                                    <div style={{fontSize:"15px"}}>{item.sub}</div>
-                                </div>
+                                    <Avatar style={{height:"70px",width:"70px"}} src={item.icon}/>
+                                    <div style={{display:"flex",flexDirection:"column",marginLeft:"20px",color:"#b1b3b5"}}>
+                                        <div style={{fontSize:"20px",fontWeight:"500"}}>{item.title}</div>
+                                        <div style={{fontSize:"15px"}}>{item.sub}</div>
+                                    </div>
                             </div>
                             {(item.title==="Contact me")?<div/>:<div className="chat_divider"/>}
                         </>
