@@ -9,7 +9,7 @@
 
 ## Screenshot
 
-![Watch the video](https://drive.google.com/uc?export=view&id=1uZMtKdULaJETxTbDNUbNa4yIFdGC4onO)
+![Loading](https://drive.google.com/uc?export=view&id=1uZMtKdULaJETxTbDNUbNa4yIFdGC4onO)
 
 ## Web Link
 
