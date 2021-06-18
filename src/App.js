@@ -6,7 +6,7 @@ import { BrowserRouter as Router , Switch , Route,Redirect} from 'react-router-d
 import Whatsapp from './components/whatsapp';
 import { createBrowserHistory } from 'history';
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-DVP8025EJK');
+ReactGA.initialize('G-B19KVWDZ9S');
 
 const history = createBrowserHistory();
 
@@ -19,7 +19,7 @@ class App extends Component {
   state = {  }
   render() { 
     return ( 
-      <Router >
+      <Router history={history}>
           <Redirect to="/portfolio" />
           <Switch>
                   <Route path="/portfolio" exact component = {Whatsapp} />
