@@ -38,9 +38,7 @@ class Whatsapp_chat extends Component {
                             <div style={{fontSize:"13px",overflow:"hidden",whiteSpace:"nowrap",textOverflow:"ellipsis"}}>{this.props.chat.sub}</div>
                         </div>
                     </div>
-                    <div style={{display:"flex",flexDirection:"row",padding:"10px",alignItems:"center"}}>
-                        <MoreHoriz style={{color:"#b1b3b5",fontSize:"28px"}}/>
-                    </div>
+                    <MoreHoriz style={{color:"#b1b3b5",fontSize:"28px",padding:"6px"}}/>
                 </div>
                 <div className="chat_window scroll2" >
                     { (this.props.chat.title==="Home")?<Aboutme/>:
@@ -53,10 +51,10 @@ class Whatsapp_chat extends Component {
                     }
                 </div>
                 <div style={{display:"flex",flexDirection:"row",alignItems:"center",backgroundColor:"#2a2e33",width:"100%"}}>
-                    <div style={{position:"absolute"}} className="heart-icon">
+                    <div style={{position:"absolute",marginLeft:"-15px"}} className="heart-icon">
                         <Heart  isClick={this.state.heart} onClick={() => this.setState({heart:!this.state.heart})}/>
                     </div>
-                    <AttachFileIcon style={{color:"#b1b3b5",fontSize:"28px",padding:"15px",marginLeft:"70px"}} className="rotate_45_icons"/>
+                    <AttachFileIcon style={{color:"#b1b3b5",fontSize:"28px",padding:"10px",marginLeft:"55px"}} className="rotate_45_icons"/>
                     <div className="Input" style={{width:"100%"}}>
                         <form >
                             <input
@@ -68,7 +66,7 @@ class Whatsapp_chat extends Component {
                             />
                         </form>
                     </div>
-                    <SendIcon style={{color:"#b1b3b5",fontSize:"28px",padding:"15px"}}/>
+                    <SendIcon style={{color:"#b1b3b5",fontSize:"28px",padding:"10px"}}/>
                 </div>
             </div>
         );
