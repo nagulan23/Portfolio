@@ -14,7 +14,7 @@ class WhatsappWeb extends Component {
     render() { 
         return ( 
             <div style={{ height: '100%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>
-                <div style={{height:"30px",backgroundColor:"#128C7E",width:"100%",color:"white",textAlign:"center",fontWeight:"500"}}>Nagulan's Portfolio Website</div>
+                <div style={{display:"flex",height:"30px",backgroundColor:"#128C7E",width:"100%",color:"white",justifyContent:"center",fontWeight:"500",alignItems:"center"}}>Nagulan's Portfolio Website</div>
                 <div className="non_header_window">
                     <Whatsappchatlist changeChat={this.changeChat.bind(this)}/>
                     <Whatsappchat chat={this.state.chat}/>
