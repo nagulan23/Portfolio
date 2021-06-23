@@ -3,6 +3,7 @@ import { Avatar } from '@material-ui/core';
 import { MoreHoriz } from '@material-ui/icons';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import SendIcon from '@material-ui/icons/Send';
+import Home from './home';
 import Aboutme from './aboutme';
 import Projects from './projects';
 import Education from './education';
@@ -41,7 +42,8 @@ class Whatsapp_chat extends Component {
                     <MoreHoriz style={{color:"#b1b3b5",fontSize:"28px",padding:"6px"}}/>
                 </div>
                 <div className="chat_window scroll2" >
-                    { (this.props.chat.title==="Home")?<Aboutme/>:
+                    { (this.props.chat.title==="Home")?<Home/>:
+                      (this.props.chat.title==="About me")?<Aboutme/>:
                       (this.props.chat.title==="Projects")?<Projects/>:
                       (this.props.chat.title==="Experience")?<Work/>:
                       (this.props.chat.title==="Education")?<Education/>:

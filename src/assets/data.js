@@ -24,10 +24,39 @@ const data = {
             "node.js"
           ],
         },
+        {
+          title:"Database management system",
+          content:[
+            "Firebase",
+            "MYSQL",
+            "SQLite",
+            "MongoDB"
+          ],
+        },
+        {
+          title:"Machine Learning",
+          content:[
+          ],
+        },
+        {
+          title:"Competitive Programming",
+          content:[
+          ],
+        },
+        {
+          title:"Data Structures & Algorithms",
+          content:[
+          ],
+        },
+        {
+          title:"Web scraping using python",
+          content:[
+          ],
+        },
       ],
     },
     {
-      contact:"Languages",
+      contact:"Programming Languages",
       time:"8:30pm",
         skills:[
           {
@@ -72,6 +101,14 @@ const data = {
           content:[
             "Conducted by InterviewBit",
             "College First"
+          ],
+        },
+        {
+          title:"Poly’code’glot",
+          content:[
+            "Secured 3rd place",
+            "Hosted by Amrita University",
+            "Coding contest that displays the ability to code in completely new languages"
           ],
         },
       ],
@@ -122,13 +159,43 @@ const data = {
       ]
     },
     {
-      contact:"Mobile",
+      contact:"Web App",
+      title:"Amrita Guest Lecture Management— Web Application",
+      link:"https://login-15f95.web.app/home",
+      stacks:"MERN stack, Firebase, Jenkins, Jira, Docker, Azure",
+      time:"Jan 2020 - June 2020",
+      content:[
+        "Amrita Guest Lecture Management System acts as a bridge between management side and student side to convey the lecture details seamlessly. The project was developed as a part of Software Engineering course using various SE tools.",
+      ]
+    },
+    {
+      contact:"Mobile App",
       title:"PLANTRUM — An API-Based Mobile Application",
       link:"https://github.com/nagulan23/PLANTRUM",
       stacks:"Flutter, Firebase database, Dialogflow",
       time:"November 2019 - April 2020",
       content:[
         "A mobile application that assists gardeners with a user-friendly Dialogflow chatbot connected to an integrated database and also provides active weather alerts.",
+      ]
+    },
+    {
+      contact:"Machine Learning",
+      title:"House Price Prediction— Machine Learning Model",
+      link:"https://www.kaggle.com/nagulans/nagulan-housing",
+      stacks:"Linear Regression, Data Analysis, Python",
+      time:"July 2020 - August 2020",
+      content:[
+        "A Machine Learning Model to predict housing prices based on multiple features trained with the US dataset.",
+      ]
+    },
+    {
+      contact:"Mobile App",
+      title:"Complaint Point— Full Stack Design",
+      link:"https://github.com/nagulan23/Complaint-Point-Flutter",
+      stacks:"Flutter, Django, MYSQL",
+      time:"September 2020 - November 2020",
+      content:[
+        "Mobile Application aimed at replicating the grievance redressal mechanism of the Govt. of India, in a social media type interface.",
       ]
     },
   ],
@@ -213,6 +280,12 @@ const data = {
     {
       title:"Home",
       sub:"Short intro about me :)",
+      icon:"https://i.pinimg.com/736x/da/7c/c3/da7cc366c951480eb1db1160d92f1b1b.jpg",
+      visited:true
+    },
+    {
+      title:"About me",
+      sub:"Who am I?",
       icon:"https://st.depositphotos.com/1620766/4559/v/600/depositphotos_45590179-stock-illustration-about-me-sign.jpg",
       visited:true
     },
