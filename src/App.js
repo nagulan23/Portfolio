@@ -6,7 +6,7 @@ import { BrowserRouter as Router , Switch , Route,Redirect} from 'react-router-d
 import Whatsapp from './components/whatsapp';
 import { createBrowserHistory } from 'history';
 import ReactGA from 'react-ga';
-ReactGA.initialize('G-B19KVWDZ9S');
+ReactGA.initialize('G-QW51145W5X');
 
 const history = createBrowserHistory();
 
