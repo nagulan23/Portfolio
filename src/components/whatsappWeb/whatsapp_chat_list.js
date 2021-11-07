@@ -26,7 +26,7 @@ class Whatsapp_chat_list extends Component {
     }
     render() { 
         return ( 
-            <div style={{width:"30%",minWidth:"500px",backgroundColor:"#131c21",height:"100%",borderRight:"1px solid #5f6769"}}>
+            <div style={{width:"30%",minWidth:"400px",backgroundColor:"#131c21",height:"100%",borderRight:"1px solid #5f6769"}}>
                 <div style={{backgroundColor:"#2a2e33",display:"flex",flexDirection:"row",padding:"10px",justifyContent:"space-between",alignItems:"center"}}>
                     <div style={{display:"flex",flexDirection:"row",alignItems:"center"}}>
                         <Avatar style={{height:"50px",width:"50px"}} src={profile}/>
