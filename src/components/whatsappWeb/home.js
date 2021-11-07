@@ -16,8 +16,8 @@ class Home extends Component {
             <div style={{display:"flex",flexDirection:"row",height:"100%", backgroundImage:`url(${BGM})`}}>
                 <div style={{width:"50%",margin:"5%",}}>
                     <div style={{display:"flex",flexDirection:"row"}}>
-                        <ArrowRightSharpIcon className="rotate_-45_icons" style={{color:"#056063",margin:"0px",padding:"0px",border:"none"}}/>
-                        <div style={{backgroundColor:"#056063",borderRadius:"5px",padding:"10px",position:"relative",left:"-10px",top:"10px",borderTopLeftRadius:"0px"}}>
+                        <ArrowRightSharpIcon className="rotate_-45_icons" style={{color:"#056063",margin:"0px",padding:"0px",border:"none",fontSize:"34px"}}/>
+                        <div style={{backgroundColor:"#056063",borderRadius:"5px",padding:"10px",position:"relative",left:"-14px",top:"14px",borderTopLeftRadius:"0px"}}>
                             <div style={{color:"#b1b3b5", fontSize:"20px",fontWeight:"bold"}}>Hi, I'm</div>
                         </div>
                     </div>

@@ -1,3 +1,11 @@
+import profile1 from './profile1.png';
+import profile2 from './profile2.png';
+import profile3 from './profile3.png';
+import profile4 from './profile4.png';
+import profile5 from './profile5.png';
+import profile6 from './profile6.png';
+import profile8 from './profile8.png';
+
 const data = {
 
   skills:[
@@ -227,48 +235,48 @@ const data = {
     {
       title:"Home",
       sub:"Short intro about me :)",
-      icon:"https://i.pinimg.com/736x/da/7c/c3/da7cc366c951480eb1db1160d92f1b1b.jpg",
+      icon:profile1,
       visited:true
     },
     {
       title:"Projects",
       sub:"Creations done in my learning journey",
-      icon:"https://img.freepik.com/free-vector/organizing-projects-concept-illustration_114360-632.jpg?size=626&ext=jpg",
+      icon:profile2,
       visited:false,
       length:"2",
     },
     {
       title:"Experience",
       sub:"Lead works done as a community",
-      icon:"https://st3.depositphotos.com/2684485/35933/v/600/depositphotos_359334344-stock-illustration-flat-vector-work-home-workplace.jpg",
+      icon:profile3,
       visited:false,
       length:"2",
     },
     {
       title:"Education",
       sub:"My path to the computer world",
-      icon:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/online-3412473_1920.jpeg?meGHIUut1mybIL3pem8eWqk34osmW3Zi&size=770:433",
+      icon:profile4,
       visited:false,
       length:"2",
     },
     {
       title:"Skills",
       sub:"Skills gained in experience",
-      icon:"https://cdn.searchenginejournal.com/wp-content/uploads/2017/02/star-ratings.jpg",
+      icon:profile5,
       visited:false,
       length:"2",
     },
     {
       title:"Achievements",
       sub:"Acheievents made in reputed organizations",
-      icon:"https://i0.wp.com/coverlettersandresume.com/wp-content/uploads/Key-Achievements-for-Teacher.gif?fit=640%2C406&ssl=1",
+      icon:profile6,
       visited:false,
       length:"3",
     },
     {
       title:"Contact me",
       sub:"Wanna contact me?",
-      icon:"https://www.tdigitalguru.com/wp-content/uploads/2021/05/Conatct-us.jpg",
+      icon:profile8,
       visited:false,
       length:"3",
     },

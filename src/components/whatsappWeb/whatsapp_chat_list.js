@@ -8,6 +8,7 @@ import data from '../../assets/data';
 import { IconButton } from '@material-ui/core';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import profile from '../../assets/profile.jpg';
+import profile1 from '../../assets/profile1.png';
 
 class Whatsapp_chat_list extends Component {
     state = { 
