@@ -44,12 +44,28 @@
   background: #666; 
 }
 
-.socialmedia_icon {
+.socialmedia_icon_twitter {
     color:#b1b3b5;
 }
 
-.socialmedia_icon:hover {
-    color:#34b6f0;
+.socialmedia_icon_github {
+    color:#b1b3b5;
+}
+
+.socialmedia_icon_linkedin {
+    color:#b1b3b5;
+}
+
+.socialmedia_icon_twitter:hover {
+    color:#00ACEE;
+}
+
+.socialmedia_icon_github:hover {
+    color:#000000;
+}
+
+.socialmedia_icon_linkedin:hover {
+    color:#0E76A8;
 }
 
 .rotate_-45_icons{

@@ -41,13 +41,13 @@ class Whatsapp_chat_list extends Component {
                     (this.state.socialMediaTabOpen)?
                     <div style={{width:"100%",display:"flex",flexDirection:"row",justifyContent:"space-around",backgroundImage: "linear-gradient(to right, #8a0a2a, #400b76)"}}>
                         <IconButton onClick={()=>window.open("https://www.linkedin.com/in/nagulan-s/")} >
-                            <LinkedInIcon className="socialmedia_icon" style={{fontSize:"20px"}}/>
+                            <LinkedInIcon className="socialmedia_icon_linkedin" style={{fontSize:"20px"}}/>
                         </IconButton>
                         <IconButton onClick={()=>window.open("https://github.com/nagulan23")}>
-                            <GitHubIcon className="socialmedia_icon" style={{fontSize:"20px"}}/>
+                            <GitHubIcon className="socialmedia_icon_github" style={{fontSize:"20px"}}/>
                         </IconButton>
                         <IconButton onClick={()=>window.open("https://twitter.com/nagulan_s")}>
-                            <TwitterIcon className="socialmedia_icon" style={{fontSize:"20px"}}/>
+                            <TwitterIcon className="socialmedia_icon_twitter" style={{fontSize:"20px"}}/>
                         </IconButton>
                     </div>:
                     <div style={{width:"100%",height:"1px",backgroundColor:"#121c20"}}/>
