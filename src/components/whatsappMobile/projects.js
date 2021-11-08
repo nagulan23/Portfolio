@@ -19,7 +19,7 @@ class Projects extends Component {
     render() { 
         return ( 
             <div style={{display:"flex",flexDirection:"column",height:"100%"}}>
-                <div id="projectsChatWindow" style={{width:"90%",margin:"5%",paddingBottom:"20px"}}>
+                <div id="projectsChatWindow" style={{width:"96%",margin:"2%",paddingBottom:"20px",paddingTop:"20px"}}>
                     {
                         data.projects.map(item => {
                             return <>
