@@ -16,7 +16,7 @@ class Aboutme extends Component {
                     <Avatar style={{width:"90%",height:"auto",margin:"5%"}} src={profile}/>
                 </div>
                 <div style={{margin:"5%"}}>
-                    <div style={{display:"flex",flexDirection:"row"}}>
+                    <div style={{display:"flex",flexDirection:"row",paddingBottom:"5px"}}>
                         <ArrowRightSharpIcon className="rotate_-45_icons" style={{color:"#056063",margin:"0px",padding:"0px",border:"none"}}/>
                         <div style={{backgroundColor:"#056063",borderRadius:"5px",padding:"5px",position:"relative",left:"-10px",top:"10px",borderTopLeftRadius:"0px"}}>
                             <div style={{color:"#b1b3b5", fontSize:"18px",fontWeight:"bold"}}>Hi, I'm</div>
@@ -25,7 +25,7 @@ class Aboutme extends Component {
                     <div style={{marginLeft:"10px",marginTop:"10px"}}>
                         <div style={{color:"#b1b3b5",fontSize:"25px",fontWeight:"bold"}}>NAGULAN S</div>
                         <div style={{color:"#34b6f0",fontSize:"20px",fontWeight:"bold",marginBottom:"10px"}}>Passionate Full Stack Developer</div>
-                        <div style={{color:"#b1b3b5",fontSize:"17px",fontWeight:"bold",fontFamily: "'Patrick Hand', cursive",marginBottom:"30px"}}>" A diligent, dedicated, creative budding engineer with a positive attitude: An enthusiastic learner seeking an entry-level position to gain knowledge and experience in Software Development, Machine Learning, Data Science, and related areas, enabling the deployment of relevant skills resulting in mutual growth "</div>
+                        <div style={{color:"#b1b3b5",fontSize:"17px",fontWeight:"bold",fontFamily: "'Patrick Hand', cursive",marginBottom:"30px"}}>" A diligent, dedicated, creative budding engineer with a positive attitude: An enthusiastic learner gaining knowledge and experience in Software Development, Machine Learning, Data Science, and related areas"</div>
                         <div style={{display:"flex",flexDirection:"row"}}>
                             <EmailIcon style={{color:"#b1b3b5"}}/>
                             <div style={{color:"#b1b3b5",marginLeft:"10px",marginBottom:"10px"}}> nagulan1645@gmail.com</div>

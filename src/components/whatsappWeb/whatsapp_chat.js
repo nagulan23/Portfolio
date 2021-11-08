@@ -100,7 +100,7 @@ class Whatsapp_chat extends Component {
                 {
                     (this.props.chat.title==="Home")?
                     <div style={{justifyContent:"center",fontSize:"15px",height:"70px",display:"flex",flexDirection:"row",alignItems:"center",backgroundColor:"#2a2e33",width:"100%",color:"#b1b3b5"}}>
-                        Only <span style={{color:"#34b6f0",cursor:"pointer"}}> &#160;admin&#160; </span> can send messages
+                        Only <span style={{color:"#34b6f0",cursor:"pointer"}}> &#160;admins&#160; </span> can send messages
                     </div>
                     :
                     <div style={{display:"flex",flexDirection:"row",alignItems:"center",backgroundColor:"#2a2e33",width:"100%"}}>

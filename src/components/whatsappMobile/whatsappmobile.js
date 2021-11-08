@@ -14,7 +14,7 @@ class WhatsappMobile extends Component {
     render() { 
         return ( 
             <div style={{ height: '100%', position: 'absolute', left: '0px', width: '100%', overflow: 'hidden'}}>
-                <div style={{display:"flex",height:"30px",backgroundColor:"#128C7E",width:"100%",color:"white",justifyContent:"center",fontWeight:"500",alignItems:"center"}}>Nagulan's Portfolio Website</div>
+                <div style={{display:"flex",backgroundColor:"#128C7E",width:"100%",color:"white",justifyContent:"center",alignItems:"center",fontSize:"12px",padding:"3px"}}>Nagulan's Portfolio Website</div>
                 <div className="non_header_window">
                     {
                         (this.state.chat.title==="Main")?<Whatsappchatlist changeChat={this.changeChat.bind(this)}/>:
