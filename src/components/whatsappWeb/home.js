@@ -15,7 +15,7 @@ class Home extends Component {
         return ( 
             <div style={{display:"flex",flexDirection:"row",height:"100%", backgroundImage:`url(${BGM})`}}>
                 <div style={{width:"50%",margin:"5%",}}>
-                    <div style={{display:"flex",flexDirection:"row"}}>
+                    <div style={{display:"flex",flexDirection:"row",marginLeft:"-9px"}}>
                         <ArrowRightSharpIcon className="rotate_-45_icons" style={{color:"#056063",margin:"0px",padding:"0px",border:"none",fontSize:"34px"}}/>
                         <div style={{backgroundColor:"#056063",borderRadius:"5px",padding:"10px",position:"relative",left:"-14px",top:"14px",borderTopLeftRadius:"0px"}}>
                             <div style={{color:"#b1b3b5", fontSize:"20px",fontWeight:"bold"}}>Hi, I'm</div>
@@ -27,7 +27,7 @@ class Home extends Component {
                             <img src="https://www.pinclipart.com/picdir/big/170-1701281_tick-mark-png-icon-for-kids-whatsapp-blue.png" alt="" height="15px" style={{padding:"10px",paddingBottom:"13px"}}/>
                         </div>
                         <div style={{color:"#34b6f0",fontSize:"25px",fontWeight:"bold",marginBottom:"10px"}}>Passionate Full Stack Developer</div>
-                        <div style={{color:"#b1b3b5",fontSize:"20px",fontWeight:"bold",fontFamily: "'Patrick Hand', cursive",marginBottom:"30px"}}>" A diligent, dedicated, creative budding engineer with a positive attitude: An enthusiastic learner gaining knowledge and experience in Software Development, Machine Learning, Data Science, and related areas"</div>
+                        <div style={{color:"#b1b3b5",fontSize:"20px",fontWeight:"bold",fontFamily: "'Patrick Hand', cursive",marginBottom:"30px",marginTop:"20px"}}>" A diligent, dedicated, creative budding engineer with a positive attitude: An enthusiastic learner gaining knowledge and experience in Software Development, Machine Learning, Data Science, and related areas"</div>
                         <div style={{display:"flex",flexDirection:"row"}}>
                             <EmailIcon style={{color:"#b1b3b5"}}/>
                             <div style={{color:"#b1b3b5",marginLeft:"10px",marginBottom:"10px"}}> nagulan1645@gmail.com</div>
