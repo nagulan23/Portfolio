@@ -23,7 +23,7 @@ class Projects extends Component {
                     {
                         data.projects.map(item => {
                             return <>
-                            <div style={{color:"lightgray",width:"100%",textAlign:"center",fontSize:"10px",marginBottom:"10px"}}>
+                            <div style={{color:"lightgray",width:"100%",textAlign:"center",fontSize:"12px",marginBottom:"10px"}}>
                                 <div style={{padding:"8px",borderRadius:"8px",backgroundColor:"#1e2b31",display:"inline"}}>
                                     {item.duration}
                                 </div>
@@ -54,8 +54,8 @@ class Projects extends Component {
                     {
                         (this.props.msgs.length!==0)?
                         <div>
-                            <div style={{color:"lightgray",width:"100%",textAlign:"center",fontSize:"14px",marginBottom:"10px"}}>
-                                <div style={{padding:"8px",borderRadius:"8px",backgroundColor:"#1e2b31",display:"inline",fontSize:"10px"}}>
+                            <div style={{color:"lightgray",width:"100%",textAlign:"center",fontSize:"12px",marginBottom:"10px"}}>
+                                <div style={{padding:"8px",borderRadius:"8px",backgroundColor:"#1e2b31",display:"inline"}}>
                                     TODAY
                                 </div>
                             </div>
