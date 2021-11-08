@@ -16,6 +16,7 @@ class Whatsapp_chat_list extends Component {
         title:"",
         subtitle:"",
         icon:"",
+        socialMediaTabOpen: true
     }
 
     changePage(s){
@@ -32,21 +33,26 @@ class Whatsapp_chat_list extends Component {
                         <Avatar style={{height:"40px",width:"40px",}} src={profile}/>
                         <div style={{marginLeft:"10px",color:"#b1b3b5",fontFamily:" 'Pacifico', cursive",fontSize:"20px"}}>{"<  Nagulan S  />"}</div>
                     </div>
-                    <MoreHoriz style={{fontSize:"28px",color:"#b1b3b5"}} />
-                </div>
-                <div style={{width:"100%",display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
-                    <IconButton onClick={()=>window.open("https://www.linkedin.com/in/nagulan-s/")}>
-                        <LinkedInIcon className="socialmedia_icon" style={{fontSize:"25px"}}/>
-                    </IconButton>
-                    <IconButton onClick={()=>window.open("https://github.com/nagulan23")}>
-                        <GitHubIcon className="socialmedia_icon" style={{fontSize:"25px"}}/>
-                    </IconButton>
-                    <IconButton onClick={()=>window.open("https://twitter.com/nagulan_s")}>
-                        <TwitterIcon className="socialmedia_icon" style={{fontSize:"25px"}}/>
+                    <IconButton onClick={()=>this.setState({socialMediaTabOpen:!this.state.socialMediaTabOpen})} style={{padding:"0px"}}>
+                        <MoreHoriz style={{fontSize:"28px",color:"#b1b3b5"}} />
                     </IconButton>
                 </div>
-                <div style={{width:"100%",height:"1px",backgroundColor:"#5f6769"}}/>
-                <div style={{overflowY:"auto",position:"relative",height:"calc(100% - 102px)"}} className="scroll2">
+                {   
+                    (this.state.socialMediaTabOpen)?
+                    <div style={{width:"100%",display:"flex",flexDirection:"row",justifyContent:"space-around",backgroundImage: "linear-gradient(to right, #8a0a2a, #400b76)"}}>
+                        <IconButton onClick={()=>window.open("https://www.linkedin.com/in/nagulan-s/")} >
+                            <LinkedInIcon className="socialmedia_icon" style={{fontSize:"20px"}}/>
+                        </IconButton>
+                        <IconButton onClick={()=>window.open("https://github.com/nagulan23")}>
+                            <GitHubIcon className="socialmedia_icon" style={{fontSize:"20px"}}/>
+                        </IconButton>
+                        <IconButton onClick={()=>window.open("https://twitter.com/nagulan_s")}>
+                            <TwitterIcon className="socialmedia_icon" style={{fontSize:"20px"}}/>
+                        </IconButton>
+                    </div>:
+                    <div style={{width:"100%",height:"1px",backgroundColor:"#121c20"}}/>
+                }
+                <div style={{overflowY:"auto",position:"relative",height:(this.state.socialMediaTabOpen)?"calc(100% - 98px)":"calc(100% - 55px)"}} className="scroll2">
                 {
                     data.chatList.map(item => {
                         return <>
@@ -61,10 +67,15 @@ class Whatsapp_chat_list extends Component {
                         </>
                     })
                 }
-                <div style={{textAlign:"center"}}>
-                    <WhatsAppIcon style={{color:"#b1b3b5",fontSize:"40px",}}/>
-                </div>                
-                <div style={{color:"#b1b3b5", fontFamily:"'Baloo Tammudu 2', cursive",fontSize:"15px",textAlign:"center"}}> A WhatsApp themed Portfolio</div>
+                <div style={{backgroundImage: "linear-gradient(to right, #8a0a2a, #400b76)"}}>
+                    <div style={{width:"100%", height:"50px",backgroundImage: "linear-gradient(to bottom, #121c20, rgba(255,0,0,0))"}}>
+
+                    </div>
+                    <div style={{textAlign:"center"}}>
+                        <WhatsAppIcon style={{color:"#b1b3b5",fontSize:"60px",}}/>
+                    </div>                
+                    <div style={{color:"#b1b3b5", fontFamily:"'Baloo Tammudu 2', cursive",fontSize:"18px",textAlign:"center"}}> A WhatsApp themed Portfolio 2.0</div>
+                    </div>
                 </div>
             </div>
          );

@@ -37,7 +37,8 @@ class Whatsapp_chat_list extends Component {
                         <MoreHoriz style={{fontSize:"40px",color:"#b1b3b5"}} />
                     </IconButton>
                 </div>
-                {   (this.state.socialMediaTabOpen)?
+                {   
+                    (this.state.socialMediaTabOpen)?
                     <div style={{width:"100%",display:"flex",flexDirection:"row",justifyContent:"space-around",backgroundImage: "linear-gradient(to right, #8a0a2a, #400b76)"}}>
                         <IconButton onClick={()=>window.open("https://www.linkedin.com/in/nagulan-s/")} >
                             <LinkedInIcon className="socialmedia_icon" style={{fontSize:"20px"}}/>
